@@ -8,8 +8,8 @@
 
 #include <ThingSpeak.h>
 
-#define CHANNEL_ID 2172932
-#define CHANNEL_API_KEY  "73Y0OEPCS85HRQ2W"
+#define CHANNEL_ID your_channel_id
+#define CHANNEL_API_KEY  "your_api_key"
 
 WiFiClient client;
 
@@ -19,17 +19,17 @@ const int sensor_pin = A0;  /* Soil moisture sensor O/P pin */
 const int RELAY_PIN = 22;
 
 
-const char* ssid = "Maidens";
-const char* password = "123456789";
+const char* ssid = "your_ssid";
+const char* password = "your_password";
 
 // Your Domain name with URL path or IP address with path
-String openWeatherMapApiKey = "2d5e824e6ef86655a5f93f4186c94853";
+String openWeatherMapApiKey = "openweather_api_key";
 // Example:
 //String openWeatherMapApiKey = "2d5e824e6ef86655a5f93f4186c94853";
 
 // Replace with your country code and city
-String city = "Raipur";
-String countryCode = "IN";
+String city = "your city";
+String countryCode = "country code";    //India - IN
 
 // THE DEFAULT TIMER IS SET TO 10 SECONDS FOR TESTING PURPOSES
 // For a final application, check the API call limits per hour/minute to avoid getting blocked/banned
