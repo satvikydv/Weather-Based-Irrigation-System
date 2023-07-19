@@ -32,3 +32,8 @@ The Smart Irrigation System with ESP32 and OpenWeatherAPI is an intelligent and 
 * The system activates the irrigation mechanism, ensuring that plants receive the appropriate amount of water based on the current weather conditions.
 
 * Users can monitor the irrigation system through a web or mobile interface, with the help of Thingspeak cloud.
+
+# Images
+![Example Image](images/image1.jpg)
+![Example Image](images/image2.png)
+![Example Image](images/image3.png)
